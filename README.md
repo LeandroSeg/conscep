@@ -1,6 +1,8 @@
 # conscep - Consulta de CEP
+Site para consulta de CEP via API via cep.
 
-Técnicas:
+Segue detalhes das técnicas usadas:
+
 - uso de async await
 - animações
 - consulta a API (viacep)
