@@ -1,4 +1,3 @@
-# conscep
 # conscep - Consulta de CEP
 
 Técnicas:
