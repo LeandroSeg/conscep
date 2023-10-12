@@ -1,4 +1,4 @@
-# conscep - Consulta de CEP
+# conscep
 Site para consulta de CEP via API via cep.
 
 Segue detalhes das técnicas usadas:
