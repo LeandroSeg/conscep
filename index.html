@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />    
+    <script src="script.js"></script>
+    <title>Consulta CEP e seu endereço associado</title>
+</head>
+<body>
+    <header>
+        <form class="form-cep">
+            <input class="input-cep" name="input-cep" type="string" maxlength="9" placeholder="Digite o CEP"  autofocus/>
+            <button wm-submit class="btn btn-form-cep" type="submit"><span>Pesquisar</span></button>
+        </form>
+        <div id="myProgress">
+            <div id="myBar"></div>
+        </div>            
+    </header>
+    <main>
+    
+        <div class=".dadosEnd">
+
+            <div class="titulo">Logradouro</div>
+            <div class="campo">
+                <span class="material-symbols-outlined" onclick="copiarParaClipboard('.logradouro')">
+                    content_copy
+                </span><div class="logradouro efeitoCampo"></div>            
+            </div>
+            <div class="campo">
+                <span class="material-symbols-outlined" onclick="copiarParaClipboard('.complemento')">
+                    content_copy
+                    </span>            
+                <div class="complemento  efeitoCampo"></div>    
+            </div>
+            <div class="titulo">Cidade</div>
+            
+            <div class="campo">
+                <span class="material-symbols-outlined"  onclick="copiarParaClipboard('.localidade')">
+                    content_copy
+                </span>                        
+                <div class="localidade efeitoCampo"></div>    
+            </div>
+
+
+            <div class="titulo">UF</div>
+                <div class="campo">
+                    <span class="material-symbols-outlined"  onclick="copiarParaClipboard('.uf')">
+                        content_copy
+                    </span>                     
+                <div class="uf efeitoCampo"></div>
+            </div>
+
+            <div class="titulo">Bairro</div>
+                <div class="campo">
+                    <span class="material-symbols-outlined"  onclick="copiarParaClipboard('.bairro')">
+                        content_copy
+                    </span>                     
+                <div class="bairro efeitoCampo"></div>        
+            </div>
+
+            <div class="titulo">DDD</div>
+                <div class="campo">
+                    <span class="material-symbols-outlined"  onclick="copiarParaClipboard('.ddd')">
+                        content_copy
+                    </span>                     
+                <div class="ddd efeitoCampo"></div>
+            </div>
+
+            <div class="titulo">Código IBGE</div>
+                <div class="campo">
+                    <span class="material-symbols-outlined"  onclick="copiarParaClipboard('.ibge')">
+                        content_copy
+                    </span>                     
+                <div class="ibge efeitoCampo"></div>                
+            </div>
+            
+        </div>
+        
+    </main>
+
+
+    <footer>
+        <div>Mensagem</div>
+    </footer>
+    <div class="about"><div>Fonte de dados: https://viacep.com.br/</div>
+    <div>Sgt</div>
+</div>
+    
+</body>
+</html>
+
+<script>
+
+    Iniciar(document)
+
+    
+</script>

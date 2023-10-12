@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&display=swap');
+
+:root {
+	--background-cards: rgba(255,255,255,.2);
+	--border-cards: 2px solid #fff;
+	--border-radius-cards: 5px;
+}
+
+html,
+body {
+	height: 100%;
+	font-family: "Lato", sans-serif;
+	box-sizing: border-box;
+}
+
+body {
+	background: linear-gradient(135deg, rgb(214, 81, 84), rgb(255, 129, 83));
+	background-attachment: fixed;
+}
+
+
+.previsao {
+	position: relative;
+	top: 2rem;
+}
+
+header {
+	display: flex;
+	flex-direction: column;
+	height: 280px;	
+	padding: 10px;
+	justify-content: space-around;
+	/* transform: translate(10%,10%); */
+}
+
+/* Campo CEP */
+.form-cep {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+	top: 2rem;
+}
+.form-cep * {
+	border: none;
+}
+.input-cep {
+	border-radius: 5px 0 0 5px;
+	padding: 1rem;
+	width: 50%;
+	font-size: 30px;
+}
+.btn-form-cep {
+	border-radius: 0 5px 5px 0;
+	margin-left: 5px;
+	/* padding: 25; */
+	width: 210;
+    height: 66px;
+	font-size: 30px;
+	background: rgb(196, 0, 4);
+	color: #fff;
+}
+
+
+
+.dadosEnd {
+	top: 20%;
+}
+
+main{
+	/* transform: translate(50%,10%); */
+	margin-left: 20%;
+	margin-right: 20%;
+	padding: 25px;
+	background-color: rgb(207, 182, 171);
+	display: flex;
+	flex-direction: column;
+}
+
+.campo {
+	border: 0px solid rgb(41, 34, 34);
+	border-radius: 15px;
+	padding: 9px;
+	margin: 12px;
+	font-size: 30px;
+	background-color: rgb(240, 225, 158);
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+	width: 94%;
+}
+
+.titulo {
+	font-size: 27px;
+	margin-left: 2%;
+}
+
+.material-symbols-outlined {
+	font-variation-settings:
+		'FILL' 0,
+		'wght' 2900,
+		'GRAD' 0,
+		'opsz' 24
+}
+
+
+#myProgress {
+	align-self: center;
+	background-color: grey;
+	width: 50%;
+	margin-top: 10px;
+  }
+  
+  #myBar {
+	width: 1%;
+	height: 7px;
+	background-color: green;
+  }
+
+footer {
+	display: flex;
+	border: 1px solid rgb(41, 34, 34);	
+	border-radius: 15px;
+	height: auto;
+	background-color: red;
+	color: black;
+	margin-left: 20%;
+	margin-right: 20%;	
+	justify-content: center;
+	align-items: center;
+	font-size: 40px;
+	padding: 15px;
+}
+
+.efeitoCampo {
+	transition: all .2s ease;
+	font-size: 25px;
+}
+
+.about {
+	display: flex;
+	flex-direction: column;
+	border: 2px solid rgb(150, 150, 150);	
+	border-radius: 15px;
+	height: auto;
+	background-color: rgb(123, 176, 211);
+	color: rgb(8, 8, 8);
+	margin-top: 30px;
+	margin-left: 20%;
+	margin-right: 20%;	
+	justify-content: center;
+	align-items: center;
+	font-size: 15px;
+	padding: 15px;	
+}
+
+.about div {
+	padding: 12px;
+}
+
+
+@media (max-width: 700px) {
+
+	main{
+		margin-left: 7%;
+		margin-right: 7%;
+	}
+	
+	
+}
