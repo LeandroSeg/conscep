@@ -9,6 +9,7 @@ Segue detalhes das técnicas usadas:
 - formatação via CSS em separado
 - modo teste
 
-![image](https://github.com/LeandroSeg/conscep/assets/10273131/1e828730-5424-47e6-9ca9-c39156620e3c)
+![image](https://github.com/LeandroSeg/conscep/assets/10273131/b49a9632-35db-4d03-aa1b-e756f6be87f4)
+
 
 Hospedado em https://conscep.on.fleek.co/
