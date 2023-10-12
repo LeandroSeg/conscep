@@ -1,5 +1,5 @@
 # conscep
-Site para consulta de CEP via API via cep.
+Site para consulta de CEP via API viacep.
 
 Segue detalhes das técnicas usadas:
 
